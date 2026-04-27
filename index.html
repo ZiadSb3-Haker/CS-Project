@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style edited.css">
+</head>
+<body>
+    <main>
+        <div class="login-container">
+            <div class="terminal-header">
+                <span class="status-light"></span>
+                <h1>NASA Crew Access Terminal</h1>
+            </div>
+            <section class="glass-card">
+                <form action="home.html" method="POST">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Crew Designation</label>
+                        <label class="inline-label">
+                            <input type="radio" name="role" value="pilot" required> Command Pilot
+                        </label>
+                        <label class="inline-label">
+                            <input type="radio" name="role" value="scientist"> Chief Scientist
+                        </label>
+                        <label class="inline-label">
+                            <input type="radio" name="role" value="engineer"> Systems Engineer
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Mission Parameters</label>
+                        <label class="inline-label">
+                            <input type="checkbox" name="mission" value="wormhole"> Wormhole Traversal
+                        </label>
+                        <label class="inline-label">
+                            <input type="checkbox" name="mission" value="gargantua"> Gargantua Proximity
+                        </label>
+                        <label class="inline-label">
+                            <input type="checkbox" name="mission" value="lazarus"> Lazarus Data Retrieval
+                        </label>
+                    </div>
+                    <button type="submit" class="btn-submit">Authenticate</button>
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
+
