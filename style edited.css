@@ -7,7 +7,7 @@
 body {
     background-image: url('TASK.jpg');
     background-attachment: fixed;
-    background-position: center;
+    background-position: right ;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Space Grotesk', sans-serif;
